@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+h1 {
+    text-align: center;
+    color: white;  
+}
+h2 {
+    text-align: center;
+    color: white;
+    font: 100;
+}
+body {
+    background-color: rgb(245, 155, 185);
+}
+h1:hover{
+    color: black;
+}
+footer {
+    text-align: center;
+}
