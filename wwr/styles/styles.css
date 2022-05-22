@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Square+Peg&display=swap');
 ::content {
   max-width: 1600px;
   margin: auto;
@@ -8,9 +9,11 @@
 }*/
 
 nav a {
-  text-align: center;
   color: #10120E;
   text-decoration: none;
+  background-color: #78c5d7;
+  padding: 35px;
+  text-align: center;
 }
 
 #hero-msg h1,
@@ -31,42 +34,56 @@ main {
 }
 body {
   background-color:#d6e4f2;
-  color: #10120E;
+  margin: 0;
+  padding: 0;
 }
 header {
-  background-color:rgb(225, 241, 242);
-  color: white;
+  background-color:#d6e4f2;
+  color: black;
 }
 nav a:hover {
   background-color: rgba(61, 80, 65, 0.881);
   color: #10120E;
 }
 .book, .join {
-  background-color: #C9D3DE;
+  background-color: #78c5d7;
   text-decoration: none;
+  padding: 15px 30px;
 }
 .book:hover, .join:hover {
   background-color:rgba(61, 80, 65, 0.881);
 }
 #backgroud {
-  background-color: #fcfbfb;
+  background-color: #d6e4f2;
 }
 .msg {
-  background-color:#E3E8EF ;
+  background-color:#d6e4f2 ;
+  line-height: 1.5em;
+  padding: 35px;
 }
 footer {
   text-align: center;
-  background-color:#E3E8EF ;
+  background-color:#d6e4f2 ;
   text-decoration: underline;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 .home-title {
   color: black;
+  font-family: "raleway";
+  font-size: 2em;
+  margin-top: 10px;
 }
 h4 {
   color:black ;
+  font-family: "Square Peg";
+  font-size: 2em;
 }
 .book, .join {
   color: black;
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover, .join:hover {
   color: black;
@@ -76,6 +93,9 @@ h4 {
 }
 .msg p {
   color: black;
+  font-size: 2em;
+  font-family: "Square Peg";
+  padding-bottom: 15px;
 }
 footer h3 {
   color: black;
@@ -89,6 +109,7 @@ footer a:hover {
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 #hero-img {
   width: 100%;
@@ -98,4 +119,26 @@ h3 {
 }
 a:hover {
   text-decoration: underline;
+}
+h1, h2 {
+  font-family: "Raleway";
+  font-size: 2em;
+}
+h2 {
+  margin: 0;
+}
+#logo_link {
+  padding-top: 5px;
+}
+footer.social img {
+  padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #134266;
+}
+main section img {
+  box-sizing: border-box;
 }

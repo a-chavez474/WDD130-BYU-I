@@ -1,0 +1,9 @@
+body {
+    background-color: brown;
+}
+#hero-img {
+    border-bottom-right-radius: 5px black;
+}
+img {
+    border: 10px black;
+}
