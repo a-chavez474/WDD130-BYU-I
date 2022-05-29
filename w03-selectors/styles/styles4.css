@@ -17,3 +17,15 @@ h1:hover{
 footer {
     text-align: center;
 }
+img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+p {
+    text-align: center;
+    font-size: 1.5em;
+
+}
