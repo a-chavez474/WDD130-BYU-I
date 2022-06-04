@@ -39,9 +39,11 @@
 /* Activity 2 styles */
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  width: 80%;
+  height: 500px;
   display: grid;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-rows: repeat(5, 20%);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .red2 {
