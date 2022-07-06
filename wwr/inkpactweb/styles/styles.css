@@ -73,6 +73,14 @@ h2 {
     grid-template-columns: repeat(10, 1fr);
 }
 
+h2 {
+    text-align: auto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Abel";
+    font-size: 40px;  
+}
+
 .card-img {
     width: 130px;
     padding-top: 50px;
