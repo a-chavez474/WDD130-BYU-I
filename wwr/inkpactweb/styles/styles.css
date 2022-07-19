@@ -135,7 +135,7 @@ footer {
 .msg1,
 .msg2,
 .msg3, .msg11, .msg22, .msg33 {
-    background-color: #05afc5;
+    background-color: #72e4f3;
     padding: 35px;
     margin-top: 18px;
     box-shadow: 5px 5px 10px #6f7364;
@@ -190,7 +190,7 @@ footer {
     box-shadow: 5px 5px 10px #6f7364;
     z-index: 1;
     margin: auto;
-    
+    border-radius: 10px;
 }
 
 main section {
