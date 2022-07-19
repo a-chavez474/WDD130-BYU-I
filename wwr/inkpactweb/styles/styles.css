@@ -134,8 +134,8 @@ footer {
 
 .msg1,
 .msg2,
-.msg3 {
-    background-color: #025a8a;
+.msg3, .msg11, .msg22, .msg33 {
+    background-color: #05afc5;
     padding: 35px;
     margin-top: 18px;
     box-shadow: 5px 5px 10px #6f7364;
@@ -219,4 +219,28 @@ footer p a:hover {
 
 footer .social img {
     padding-top: 15px;
+}
+/*page 3*/
+.home-grid11 {
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    background-color: #9dceeb;
+}
+.msg11 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    margin: 30px;
+}
+.msg22 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    z-index: 1;
+    margin: 30px;
+}
+.msg33 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    z-index: 1;
+    margin: 30px;
 }
